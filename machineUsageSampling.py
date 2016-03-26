@@ -39,7 +39,7 @@ task_usage_csv_colnames=['starttime', 'endtime', 'job_id', 'task_idx', 'machine_
 
 while current_sample_moment is not None:
     samples_dicts[current_sample_moment] = ({'time' : current_sample_moment, 'cpu_usage' : 0.0,
-                                             'mem_usage' : 0.0, 'disk_io_time': 0.0, 'disk_space': 0.0})
+                                             'mem_usage' : 0.0, 'disk_io_time': 0.0, 'disk_space': 0.0, 'number_of_running_task': 0.0})
     try:
         current_sample_moment = next(sample_moments_iterator)
     except StopIteration:
