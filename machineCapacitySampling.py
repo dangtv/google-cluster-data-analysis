@@ -37,7 +37,7 @@ for fn in sorted(listdir(data_directory)):
     print 'reading file '+fp
     for index, event in machine_events_df.iterrows():
 
-        if current_sample_moment is not None and event['time'] > current_sample_moment:
+        while current_sample_moment is not None and event['time'] > current_sample_moment:
             tmp_machines_df = DataFrame(machines_dict.values())
             if not tmp_machines_df.empty:
                 samples_dicts[current_sample_moment] = ({'time' : current_sample_moment,
@@ -57,12 +57,13 @@ for fn in sorted(listdir(data_directory)):
             elif event['event_type'] in [1]:
                 del machines_dict[event['machine_id']]
 
-    samples_df = DataFrame(samples_dicts.values())
-    print samples_df.info()
-    try:
-        samples_df.to_csv(path.join(results_directory,'machine_capacity_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
-                                    +'.csv'),index=False)
-    except:
-        print 'khong ghi duoc file csv'
     if current_sample_moment is None:
         break
+
+samples_df = DataFrame(samples_dicts.values())
+print samples_df.info()
+try:
+    samples_df.to_csv(path.join(results_directory,'machine_capacity_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
+                                    +'.csv'),index=False)
+except:
+    print 'khong ghi duoc file csv'
