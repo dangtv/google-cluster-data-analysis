@@ -72,6 +72,7 @@ for fn in sorted(listdir(data_directory)):
         samples_dicts[moment]['mem_usage'] += sum(task_usage_moment_df['mem_usage'])
         samples_dicts[moment]['disk_io_time'] += sum(task_usage_moment_df['disk_io_time'])
         samples_dicts[moment]['disk_space'] += sum(task_usage_moment_df['mean_local_disk_space'])
+        samples_dicts[moment]['number_of_running_task'] += len(task_usage_moment_df['cpu_usage'])
     if (totalreadfile == 50):
         samples_df = DataFrame(samples_dicts.values())
         print samples_df.info()
