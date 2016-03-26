@@ -4,3 +4,8 @@
 12116 pts/3    00:00:00 bash
 12117 pts/3    00:00:13 python
 12133 pts/3    00:00:00 ps
+  PID TTY          TIME CMD
+12360 pts/0    00:00:00 bash
+12458 pts/0    00:00:00 bash
+12459 pts/0    00:00:01 python
+12473 pts/0    00:00:00 ps
