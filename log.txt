@@ -256,4 +256,150 @@ reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00254-o
 reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00255-of-00500.csv.gz
 reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00256-of-00500.csv.gz
 reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00257-of-00500.csv.gz
-reading file /home/ubuntu/google_cluster_data/task_usage/task_usag
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usagreading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00000-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00000-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00001-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00002-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00003-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00004-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00005-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00006-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00007-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00008-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00009-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00010-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00011-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00012-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00013-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00014-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00015-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00016-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00017-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00018-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00019-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00020-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00021-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00022-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00023-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00024-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00025-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00026-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00027-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00028-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00029-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00030-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00031-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00032-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00033-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00034-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00035-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00036-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00037-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00038-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00039-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00040-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00041-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00042-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00043-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00044-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00045-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00046-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00047-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00048-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00049-of-00500.csv.gz
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2506200 entries, 0 to 2506199
+Data columns (total 6 columns):
+cpu_usage                 float64
+disk_io_time              float64
+disk_space                float64
+mem_usage                 float64
+number_of_running_task    float64
+time                      int64
+dtypes: float64(5), int64(1)
+memory usage: 114.7 MB
+None
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00050-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00051-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00052-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00053-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00054-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00055-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00056-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00057-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00058-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00059-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00060-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00061-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00062-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00063-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00064-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00065-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00066-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00067-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00068-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00069-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00070-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00071-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00072-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00073-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00074-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00075-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00076-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00077-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00078-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00079-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00080-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00081-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00082-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00083-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00084-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00085-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00086-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00087-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00088-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00089-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00090-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00091-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00092-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00093-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00094-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00095-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00096-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00097-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00098-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00099-of-00500.csv.gz
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2506200 entries, 0 to 2506199
+Data columns (total 6 columns):
+cpu_usage                 float64
+disk_io_time              float64
+disk_space                float64
+mem_usage                 float64
+number_of_running_task    float64
+time                      int64
+dtypes: float64(5), int64(1)
+memory usage: 114.7 MB
+None
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00100-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00101-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00102-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00103-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00104-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00105-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00106-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00107-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00108-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00109-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00110-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00111-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00112-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00113-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00114-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00115-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00116-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00117-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00118-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00119-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_usage/task_usage/part-00120-of-00500.csv.gz
+reading file /home/ubuntu/google_cluster_data/task_
