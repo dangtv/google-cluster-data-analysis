@@ -43,7 +43,7 @@ for fn in sorted(listdir(data_directory)):
     # task_events_df = task_events_df[task_events_df['machine_id']==machine_id]
     for index, event in task_events_df.iterrows():
 
-        if current_sample_moment is not None and event['time'] > current_sample_moment:
+        while current_sample_moment is not None and event['time'] > current_sample_moment:
             tmp_tasks_df = DataFrame(tasks_dict.values())
             tmp_tasks_df = tmp_tasks_df[tmp_tasks_df['machine_id']==machine_id]
             # dong duoi nay co the toi uu hon
