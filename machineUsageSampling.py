@@ -45,12 +45,13 @@ while current_sample_moment is not None:
     except StopIteration:
         current_sample_moment = None
 # %%time
+totalreadfile = 0
 for fn in sorted(listdir(data_directory)):
 
     fp = path.join(data_directory, fn)
     task_usage_df = read_csv(fp, header=None, index_col=False, compression='gzip', names=task_usage_csv_colnames)
     print 'reading file ' + fp
-
+    totalreadfile = totalreadfile+1
     task_usage_df = task_usage_df[task_usage_df['machine_id']==machine_id]
     # print task_usage_df.info()
     laststart = max(task_usage_df['endtime'])
@@ -71,6 +72,15 @@ for fn in sorted(listdir(data_directory)):
         samples_dicts[moment]['mem_usage'] += sum(task_usage_moment_df['mem_usage'])
         samples_dicts[moment]['disk_io_time'] += sum(task_usage_moment_df['disk_io_time'])
         samples_dicts[moment]['disk_space'] += sum(task_usage_moment_df['mean_local_disk_space'])
+    if (totalreadfile == 50):
+        samples_df = DataFrame(samples_dicts.values())
+        print samples_df.info()
+        try:
+            samples_df.to_csv(path.join(results_directory,'machine_usage_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
+                                            +'.csv'),index=False)
+        except:
+            print 'khong ghi duoc file csv'
+        totalreadfile = 0
 
 samples_df = DataFrame(samples_dicts.values())
 print samples_df.info()
@@ -79,3 +89,5 @@ try:
                                     +'.csv'),index=False)
 except:
     print 'khong ghi duoc file csv'
+
+print 'done'

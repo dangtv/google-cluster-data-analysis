@@ -33,6 +33,7 @@ current_sample_moment = next(sample_moments_iterator)
 task_events_csv_colnames = ['time', 'missing', 'job_id', 'task_idx', 'machine_id', 'event_type', 'user', 'sched_cls',
                             'priority', 'cpu_requested', 'mem_requested', 'disk', 'restriction']
 
+totalreadfile =0
 for fn in sorted(listdir(data_directory)):
 
     fp = path.join(data_directory, fn)
@@ -40,6 +41,7 @@ for fn in sorted(listdir(data_directory)):
     task_events_df = read_csv(fp, header=None, index_col=False, compression='gzip',
                               names=task_events_csv_colnames)
     print 'reading file ' + fp
+    totalreadfile = totalreadfile +1
     # task_events_df = task_events_df[task_events_df['machine_id']==machine_id]
     for index, event in task_events_df.iterrows():
 
@@ -73,13 +75,25 @@ for fn in sorted(listdir(data_directory)):
                       str(event['task_idx'])+") ko co trong cac task da submit vao machine nay" +"\n"
                 pass
 
-    samples_df = DataFrame(samples_dicts.values())
-    print samples_df.info()
-    try:
-        samples_df.to_csv(path.join(results_directory,'machine_request_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
-                                    +'.csv'),index=False)
-    except:
-        print 'khong ghi duoc file csv'
+    if (totalreadfile == 50):
+        samples_df = DataFrame(samples_dicts.values())
+        print samples_df.info()
+        try:
+            samples_df.to_csv(path.join(results_directory,'machine_request_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
+                                        +'.csv'),index=False)
+        except:
+            print 'khong ghi duoc file csv'
+        totalreadfile = 0
+
     if current_sample_moment is None:
         break
 
+samples_df = DataFrame(samples_dicts.values())
+print samples_df.info()
+try:
+    samples_df.to_csv(path.join(results_directory,'machine_request_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
+                                    +'.csv'),index=False)
+except:
+    print 'khong ghi duoc file csv'
+
+print 'done'
