@@ -72,10 +72,10 @@ for fn in sorted(listdir(data_directory)):
         samples_dicts[moment]['disk_io_time'] += sum(task_usage_moment_df['disk_io_time'])
         samples_dicts[moment]['disk_space'] += sum(task_usage_moment_df['mean_local_disk_space'])
 
-    samples_df = DataFrame(samples_dicts.values())
-    print samples_df.info()
-    try:
-        samples_df.to_csv(path.join(results_directory,'machine_usage_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
+samples_df = DataFrame(samples_dicts.values())
+print samples_df.info()
+try:
+    samples_df.to_csv(path.join(results_directory,'machine_usage_sampling_machineid_'+str(machine_id)+'_interval_'+str(interval)
                                     +'.csv'),index=False)
-    except:
-        print 'khong ghi duoc file csv'
+except:
+    print 'khong ghi duoc file csv'
