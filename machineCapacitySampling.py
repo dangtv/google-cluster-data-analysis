@@ -59,6 +59,19 @@ for fn in sorted(listdir(data_directory)):
 
     if current_sample_moment is None:
         break
+while current_sample_moment is not None:
+    tmp_machines_df = DataFrame(machines_dict.values())
+    if not tmp_machines_df.empty:
+        samples_dicts[current_sample_moment] = ({'time' : current_sample_moment,
+                                                         'cpu_available' : (tmp_machines_df['cpu']).sum(),
+                                                         'mem_available' : (tmp_machines_df['mem']).sum()})
+    else:
+        samples_dicts[current_sample_moment] = ({'cpu_available' : 0,
+                                                         'mem_available' : 0})
+    try:
+        current_sample_moment = next(sample_moments_iterator)
+    except StopIteration:
+        current_sample_moment = None
 
 samples_df = DataFrame(samples_dicts.values())
 print samples_df.info()
