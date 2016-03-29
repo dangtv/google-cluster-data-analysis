@@ -938,4 +938,4 @@ reading file /home/ubuntu/google_cluster_data/task_events/part-00044-of-00500.cs
 reading file /home/ubuntu/google_cluster_data/task_events/part-00045-of-00500.csv.gz
 reading file /home/ubuntu/google_cluster_data/task_events/part-00046-of-00500.csv.gz
 reading file /home/ubuntu/google_cluster_data/task_events/part-00047-of-00500.csv.gz
-reading file /ho
+reading file /horeading file /home/ubuntu/google_cluster_data/task_events/part-00000-of-00500.csv.gz
