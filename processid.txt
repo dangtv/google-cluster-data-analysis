@@ -24,3 +24,13 @@
 13035 pts/5    00:00:00 bash
 13036 pts/5    00:00:15 python
 13053 pts/5    00:00:00 ps
+  PID TTY          TIME CMD
+15035 pts/3    00:00:00 bash
+15249 pts/3    00:00:00 bash
+15250 pts/3    00:00:00 python
+15251 pts/3    00:00:00 ps
+  PID TTY          TIME CMD
+16527 pts/5    00:00:00 bash
+16615 pts/5    00:00:00 bash
+16616 pts/5    00:00:01 python
+16631 pts/5    00:00:00 ps

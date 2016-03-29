@@ -18,3 +18,13 @@ time             25062 non-null int64
 dtypes: float64(2), int64(1)
 memory usage: 587.5 KB
 None
+reading file /home/ubuntu/google_cluster_data/machine_events/part-00000-of-00001.csv.gz
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2506200 entries, 0 to 2506199
+Data columns (total 3 columns):
+cpu_available    float64
+mem_available    float64
+time             int64
+dtypes: float64(2), int64(1)
+memory usage: 57.4 MB
+None
